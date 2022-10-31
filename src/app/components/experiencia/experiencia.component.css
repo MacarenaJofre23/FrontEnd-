@@ -1,0 +1,28 @@
+.row{
+    padding: 15px;
+}
+div{
+    background-color: aliceblue;
+}
+h2{
+    display: inline;
+}
+li{
+    list-style-type:none;
+}
+p{
+    padding: 5;
+    margin-top: 10px;
+}
+p time{
+    color: grey;
+    padding: 10px;
+}
+
+.bi{
+    float: right;
+}
+.btn{
+    float: right;
+    margin-right: 5px;
+}

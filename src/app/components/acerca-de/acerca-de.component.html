@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col">
+       <img [src]="persona.imgPerfil"
+            class="img-fluid" id="fotoDePerfil"> 
+            <p id="nombreCompleto">{{persona.nombre}} {{persona.apellido}}</p>
+            <p id="titulo">{{persona.titulo}}</p>
+    </div>
+
+  <div  class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+    <span>
+      <i class="bi bi-pencil-fill" routerLink="/editaracercade/1" *ngIf="isLogged"></i>
+      <h1>Acerca De Mi</h1>
+    <p>{{persona.descripcion}}</p>   
+    </span>
+  </div>
+<div>
+    
+

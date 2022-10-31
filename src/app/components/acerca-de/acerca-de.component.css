@@ -1,0 +1,99 @@
+.row{
+    padding: 20px;
+}
+div{ 
+    background-color: aliceblue;
+    text-align: center;
+}
+#fotoDePerfil{
+    position:absolute;
+    width: 17%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 4%;
+    top: 300px;
+    }
+    #nombreCompleto{
+        font-weight: bold;
+        margin-top:30% ;
+        margin-right: 30%;
+    }
+    #titulo{
+        margin-right: 30%;
+    
+    }
+    h1{
+        padding: 20px; ;
+    }
+    
+
+    @media(min-width: 576px){
+#fotoDePerfil{
+position:absolute;
+width: 17%;
+border-radius: 100%;
+box-shadow: 3px 3px 3px grey;
+left: 4%;
+top: 300px;
+}
+#nombreCompleto{
+    font-weight: bold;
+    margin-top:30% ;
+   float: left;
+}
+#titulo{
+    margin-right: 30%;
+
+}
+h1{
+    padding: 20px; ;
+}
+
+}
+
+@media(max-width: 575px){
+    #fotoDePerfil{
+    position:absolute;
+    width: 25%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 36%;
+    top: 330px;
+        }   
+        #nombreCompleto{
+            font-weight: bold;
+            margin-top:10% ;
+            margin-right: 3%;
+        }
+        #titulo{
+            margin-right: 3%;
+        
+        }
+    }
+  
+    @media(max-width: 426px){
+        #fotoDePerfil{
+        position:absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        top: 330px;
+        left: 35%;
+         }
+         #nombreCompleto{
+            font-weight: bold;
+            margin-top:14% ;
+            margin-right: 1%;
+        }
+        #titulo{
+            margin-right: 3%;
+        
+        }
+    }
+    .bi{
+        float: right;
+    }
+    .btn{
+        float: right;
+        margin-right: 5px;
+    }

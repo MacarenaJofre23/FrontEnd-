@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+<div>
+    <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+        <div class="form-group">
+            <label for ="nombreProyecto">Nombre del proyecto</label>
+            <input type="text" class="form-control" id="nombreProyecto" name="nombreProyecto" [(ngModel)]= "nombreProyecto" required>
+        </div>
+        <div class="form-group">
+            <label for ="descripcionProyecto">Descripcion del proyecto </label>
+            <input type="text" class="form-control" id="descripcionProyecto" name="descripcionProyecto" [(ngModel)]= "descripcionProyecto" required>
+        </div>
+        <div class="form-group">
+            <label for ="comienzo">Año de comienzo</label>
+            <input type="number" class="form-control" id="comienzo" name="comienzo" [(ngModel)]= "comienzo" required>
+        </div>
+        <div class="form-group">
+            <label for="finalizacion">Año de Finalizacion</label>
+            <input type="number" class="form-control" id="finalizacion" name="finalizacion" [(ngModel)]= "finalizacion" required>
+        </div>
+        <button class="btn btn-primary"> Agregar Proyecto</button>
+    </form>
+</div>
+    </div>
+</div>

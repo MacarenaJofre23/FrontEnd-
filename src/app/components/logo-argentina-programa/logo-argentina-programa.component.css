@@ -1,0 +1,19 @@
+#redes{
+    text-align: center;
+    padding-top: 20px;  
+}
+#botonIniciar{
+    padding-top: 20px;
+}
+#logoArgentinaPrograma{
+    float: left;
+    width: 150px;
+
+}
+img{
+    width: 50px;
+}
+.btn{
+    border-width: medium ;
+    float: right;
+}

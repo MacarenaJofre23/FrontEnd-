@@ -1,0 +1,14 @@
+.row{
+    background-color: aliceblue;
+}
+footer{
+    color: black;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow:2px -2px 4px #999;
+}
+ #nombre{
+    padding: 10px;
+}
